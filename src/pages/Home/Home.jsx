@@ -1,13 +1,12 @@
+import Blogs from "../../Components/Blogs/Blogs.jsx";
+import Header from "../../Components/Header/Header.jsx";
 
 const Home = () => {
     return (
         <div>
-            <h1 className="text-blue-400 text-4xl font-bold underline">
-                Hello world!
-            </h1>
-
+            <Header/>
+            <Blogs/>
         </div>
     );
 };
-
 export default Home;

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://source.unsplash.com/random/1",
+        "title": "Exploring the Universe",
+        "author": "Astronomy Enthusiast",
+        "author_img": "https://source.unsplash.com/random/author1",
+        "posted_date": "2024-02-21",
+        "reading_time": "10 mins",
+        "hashtags": [
+            "space",
+            "cosmos",
+            "astronomy"
+        ]
+    },
+    {
+        "id": 2,
+        "cover_img": "https://source.unsplash.com/random/2",
+        "title": "The Art of Cooking",
+        "author": "Chef Master",
+        "author_img": "https://source.unsplash.com/random/author2",
+        "posted_date": "2024-02-20",
+        "reading_time": "15 mins",
+        "hashtags": [
+            "food",
+            "cooking",
+            "recipes"
+        ]
+    },
+    {
+        "id": 3,
+        "cover_img": "https://source.unsplash.com/random/3",
+        "title": "Fitness for Everyone",
+        "author": "Fitness Guru",
+        "author_img": "https://source.unsplash.com/random/author3",
+        "posted_date": "2024-02-19",
+        "reading_time": "12 mins",
+        "hashtags": [
+            "fitness",
+            "exercise",
+            "health"
+        ]
+    },
+    {
+        "id": 4,
+        "cover_img": "https://source.unsplash.com/random/4",
+        "title": "The World of Fiction",
+        "author": "Imagination Wizard",
+        "author_img": "https://source.unsplash.com/random/author4",
+        "posted_date": "2024-02-18",
+        "reading_time": "20 mins",
+        "hashtags": [
+            "fiction",
+            "storytelling",
+            "imagination"
+        ]
+    },
+    {
+        "id": 5,
+        "cover_img": "https://source.unsplash.com/random/5",
+        "title": "Photography: Capturing Moments",
+        "author": "Shutterbug",
+        "author_img": "https://source.unsplash.com/random/author5",
+        "posted_date": "2024-02-17",
+        "reading_time": "18 mins",
+        "hashtags": [
+            "photography",
+            "camera",
+            "memories"
+        ]
+    }
+]
