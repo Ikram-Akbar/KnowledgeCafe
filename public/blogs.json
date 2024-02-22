@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "cover_img": "https://source.unsplash.com/random/1",
+        "cover_img": "https://englishpluspodcast.com/wp-content/uploads/2023/05/Astronomy-and-Astrophysics.jpg",
         "title": "Exploring the Universe",
         "author": "Astronomy Enthusiast",
         "author_img": "https://source.unsplash.com/random/author1",
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "cover_img": "https://source.unsplash.com/random/2",
+        "cover_img": "https://yumporium.files.wordpress.com/2014/10/cooking-is-art.jpg",
         "title": "The Art of Cooking",
         "author": "Chef Master",
         "author_img": "https://source.unsplash.com/random/author2",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "cover_img": "https://source.unsplash.com/random/3",
+        "cover_img": "https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/wi/art/5b56d0996041c.jpg",
         "title": "Fitness for Everyone",
         "author": "Fitness Guru",
         "author_img": "https://source.unsplash.com/random/author3",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "cover_img": "https://source.unsplash.com/random/4",
+        "cover_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfwR6L1cwKivmJ0Klm-fbk1BMF6wKwyoTOw&usqp=CAU",
         "title": "The World of Fiction",
         "author": "Imagination Wizard",
         "author_img": "https://source.unsplash.com/random/author4",
@@ -57,7 +57,7 @@
     },
     {
         "id": 5,
-        "cover_img": "https://source.unsplash.com/random/5",
+        "cover_img": "https://www.cameraworld.co.uk/wordpress/wp-content/uploads/2021/07/capturing-the-moment-in-photography.jpg",
         "title": "Photography: Capturing Moments",
         "author": "Shutterbug",
         "author_img": "https://source.unsplash.com/random/author5",

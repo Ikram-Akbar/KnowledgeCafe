@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog , handleAddToBookMarked}) => {
   console.log(blog);
   const {
     title,
@@ -13,14 +12,14 @@ const Blog = ({ blog }) => {
     hashtags,
   } = blog || {}; // Handling if blog is null or undefined
 
-  const [isBookmarked, setIsBookmarked] = useState(false);
+
 
   return (
     <div>
       <div className="card m-4 shadow-xl">
         <figure>
           <img
-            className="h-80"
+            className="h-80 w-full "
             src={cover_img}
             alt={`title of img : ${title}`}
           />
@@ -29,12 +28,18 @@ const Blog = ({ blog }) => {
           <div className="flex justify-between">
             <h2 className="card-title">{title}</h2>
             <div className="flex items-center">
-              <p className="text-gray-600 mr-4">{reading_time} minutes</p>
-              <button
+              <p className="text-gray-600 mr-4">{reading_time}</p>
+              {/* <button
                 onClick={() => setIsBookmarked(!isBookmarked)}
                 className={`rounded-full p-2 ${
                   isBookmarked ? "bg-yellow-500" : ""
                 }`}
+              >
+                Bookmark
+              </button> */}
+              <button
+                onClick={handleAddToBookMarked}
+               
               >
                 Bookmark
               </button>
