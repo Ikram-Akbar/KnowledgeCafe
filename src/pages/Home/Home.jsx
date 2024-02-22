@@ -4,16 +4,25 @@ import Bookmarks from "../../Components/Bookmarks/Bookmarks.jsx";
 import Header from "../../Components/Header/Header.jsx";
 
 const Home = () => {
-  const [isBookmarked, setIsBookmarked] = useState(false);
-  const handleAddToBookMarked = (blog) =>{
-    console.log("Bookmarked");
-  }
+
+  const [bookMarked, setBookmarked] = useState([]);
+  const  [readingTime, setReadingTime] = useState(0);
+
+  const handleAddToBookMarked = (blog) => {
+    const newBookmarked = [...bookMarked, blog];
+    setBookmarked(newBookmarked);
+  };
+  const handleReadingTime = (time) => {
+    // console.log("time : ", readingTime);
+    setReadingTime(readingTime+ time);
+  };
+
   return (
     <div>
       <Header />
       <main className="md:flex  max-w-6xl mx-auto">
-        <Blogs handleAddToBookMarked={handleAddToBookMarked} />
-        <Bookmarks />
+        <Blogs handleAddToBookMarked={handleAddToBookMarked} handleReadingTime={handleReadingTime} />
+        <Bookmarks  bookMarked={bookMarked} readingTime={readingTime} />
       </main>
     </div>
   );

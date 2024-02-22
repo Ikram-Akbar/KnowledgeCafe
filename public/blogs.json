@@ -6,7 +6,7 @@
         "author": "Astronomy Enthusiast",
         "author_img": "https://source.unsplash.com/random/author1",
         "posted_date": "2024-02-21",
-        "reading_time": "10 mins",
+        "reading_time": 10,
         "hashtags": [
             "space",
             "cosmos",
@@ -20,7 +20,7 @@
         "author": "Chef Master",
         "author_img": "https://source.unsplash.com/random/author2",
         "posted_date": "2024-02-20",
-        "reading_time": "15 mins",
+        "reading_time": 25,
         "hashtags": [
             "food",
             "cooking",
@@ -34,7 +34,7 @@
         "author": "Fitness Guru",
         "author_img": "https://source.unsplash.com/random/author3",
         "posted_date": "2024-02-19",
-        "reading_time": "12 mins",
+        "reading_time": 20,
         "hashtags": [
             "fitness",
             "exercise",
@@ -48,7 +48,7 @@
         "author": "Imagination Wizard",
         "author_img": "https://source.unsplash.com/random/author4",
         "posted_date": "2024-02-18",
-        "reading_time": "20 mins",
+        "reading_time": 12,
         "hashtags": [
             "fiction",
             "storytelling",
@@ -62,7 +62,7 @@
         "author": "Shutterbug",
         "author_img": "https://source.unsplash.com/random/author5",
         "posted_date": "2024-02-17",
-        "reading_time": "18 mins",
+        "reading_time": 15,
         "hashtags": [
             "photography",
             "camera",

@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
-const Blog = ({ blog , handleAddToBookMarked}) => {
-  console.log(blog);
+const Blog = ({ blog, handleAddToBookMarked, handleReadingTime }) => {
   const {
     title,
     cover_img,
@@ -10,9 +9,7 @@ const Blog = ({ blog , handleAddToBookMarked}) => {
     posted_date,
     reading_time,
     hashtags,
-  } = blog || {}; // Handling if blog is null or undefined
-
-
+  } = blog || {};
 
   return (
     <div>
@@ -28,21 +25,18 @@ const Blog = ({ blog , handleAddToBookMarked}) => {
           <div className="flex justify-between">
             <h2 className="card-title">{title}</h2>
             <div className="flex items-center">
-              <p className="text-gray-600 mr-4">{reading_time}</p>
+              <p className="text-gray-600 mr-4">{reading_time} minutes</p>
+              <button onClick={() => handleAddToBookMarked(blog)}>
+                Bookmark
+              </button>
               {/* <button
-                onClick={() => setIsBookmarked(!isBookmarked)}
+                onClick={handleAddToBookMarked}
                 className={`rounded-full p-2 ${
                   isBookmarked ? "bg-yellow-500" : ""
                 }`}
               >
                 Bookmark
               </button> */}
-              <button
-                onClick={handleAddToBookMarked}
-               
-              >
-                Bookmark
-              </button>
             </div>
           </div>
           <div className="flex">
@@ -66,7 +60,7 @@ const Blog = ({ blog , handleAddToBookMarked}) => {
             ))}
           </div>
           <button
-            onClick={() => alert("Complete Reading")}
+            onClick={() => handleReadingTime(reading_time)}
             className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
             Complete Reading
@@ -79,6 +73,8 @@ const Blog = ({ blog , handleAddToBookMarked}) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleAddToBookMarked: PropTypes.func.isRequired,
+  handleReadingTime: PropTypes.func.isRequired,
 };
 
 export default Blog;
